@@ -1,0 +1,83 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #403f3f;
+  transition: background 0.3s, color 0.3s;
+}
+body.dark {
+  background-color: #121212;
+  color: #000000;
+}
+html, body {
+  height: 100%;
+}
+.app-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, color 0.3s;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+.weather-box {
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+  transition: background 0.3s, color 0.3s;
+}
+
+.weather-box h2 {
+  margin-bottom: 1rem;
+}
+
+.toggle-button {
+  padding: 0.5rem 1rem;
+  border: 2px solid currentColor;
+  border-radius: 8px;
+  background: none;
+  color: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.toggle-button:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.light .weather-box {
+  background-color: #fff;
+}
+
+.dark {
+  background-color: #121212;
+  color: #f4f4f4;
+}
+
+.dark .weather-box {
+  background-color: #1e1e1e;
+}
+
+.dark .toggle-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
