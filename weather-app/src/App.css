@@ -3,7 +3,8 @@ body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background-color: #403f3f;
-  transition: background 0.3s, color 0.3s;
+  transition: 
+  background 0.3s, color 0.3s;
 }
 body.dark {
   background-color: #121212;
